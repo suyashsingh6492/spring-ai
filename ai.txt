@@ -1,0 +1,5 @@
+in edit configuration set up open_api_key from https://platform.openai.com/api-keys
+edit configurtion> edit configuration template> junit> environment variable >
+
+https://platform.openai.com/organization/usage
+
