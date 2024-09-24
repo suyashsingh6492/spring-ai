@@ -34,5 +34,10 @@ public class QueryController {
         return this.openAIService.getCapitalWithInfo(getCapitalRequest);
     }
 
+    @PostMapping("/ask")
+    public Answer askQuestionMovie(@RequestBody Question question) {
+        return openAIService.getAnswerMovie(question);
+    }
+
 
 }

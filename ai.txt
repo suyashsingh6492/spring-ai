@@ -2,4 +2,23 @@ in edit configuration set up open_api_key from https://platform.openai.com/api-k
 edit configurtion> edit configuration template> junit> environment variable >
 
 https://platform.openai.com/organization/usage
+the large language models, they respond to the text in the prompt.
+So we have different ways where we can help guide the model to a better result.
+We can give the model breadcrumbs and hints along the way, so that it is more reliable in the results
+that it is producing. So that is really prompting engineering
+
+
+retrieval augmented generation also known as RAG or rag. So RAG is a powerful technique that is used with LLMs to improve the performance on tasks.
+from https://www.kaggle.com/datasets/akshaypawar7/millions-of-movies/data
+spring-ai-tika-document-reader
+So the document reader that is a wrapper around an Apache project that allows you to basically to read just about any document format.
+https://openai.com/index/new-embedding-models-and-api-updates/
+you saw how we can change the embedding model and actually improve the performance of the search
+
+use vector database : spring-ai-milvus-store-spring-boot-starter
+https://milvus.io/docs
+https://milvus.io/intro
+So it is going to be a very, very scalable option to deploy within a Kubernetes cluster for a vector
+database. butBut for us we are going to run a simple Docker compose for that.
+https://milvus.io/docs/install_standalone-docker-compose.md
 
