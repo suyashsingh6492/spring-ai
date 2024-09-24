@@ -22,3 +22,6 @@ So it is going to be a very, very scalable option to deploy within a Kubernetes 
 database. butBut for us we are going to run a simple Docker compose for that.
 https://milvus.io/docs/install_standalone-docker-compose.md
 
+https://api-ninjas.com/pricing
+t get api key: https://api-ninjas.com/profile
+https://api-ninjas.com/api/weather
